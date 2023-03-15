@@ -1,0 +1,519 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "vertical",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "85D35BF1-6B26-4607-94C2-2C67A7D0C6DB",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "1C2CF3BC-CEF8-41D5-92A5-2D8CDD11EC98" : null,
+                  "4D4AD619-A36B-4C96-9A99-4CC5C8FD0C4F" : null,
+                  "1559AE72-88CF-4C5E-AFDA-EC1862BC7076" : null,
+                  "5821CC5B-8AD7-4575-B640-3B1132986FCF" : null,
+                  "C0A8A236-455D-48A7-8B15-23A7D827C08A" : {
+                    "overrides" : {
+                      "children" : {
+                        "4D4AD619-A36B-4C96-9A99-4CC5C8FD0C4F" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "bevelRadius",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.0050000000000000001
+                                }
+                              ],
+                              [
+                                "diameter",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.054354841469895818
+                                }
+                              ],
+                              [
+                                "height",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.040000000000000001
+                                }
+                              ],
+                              [
+                                "material",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "paintEnamelMatte"
+                                }
+                              ],
+                              [
+                                "materialColor",
+                                {
+                                  "typeName" : "double4",
+                                  "value" : [
+                                    1,
+                                    0.60000002384185791,
+                                    0.20000000298023224,
+                                    1
+                                  ]
+                                }
+                              ],
+                              [
+                                "type",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "cylinder"
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                              "version" : "1.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "AE759670-4E79-4239-832A-41A3B251714C"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1.0202949596305189e-13,
+                              0,
+                              0,
+                              -1.0202949596305189e-13,
+                              1,
+                              0,
+                              0.30235159397125244,
+                              0.054898794740438461,
+                              0.014664679765701294,
+                              1
+                            ]
+                          }
+                        },
+                        "1559AE72-88CF-4C5E-AFDA-EC1862BC7076" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "bevelRadius",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.0050000000000000001
+                                }
+                              ],
+                              [
+                                "depth",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.71799861428998646
+                                }
+                              ],
+                              [
+                                "height",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.014999999999999999
+                                }
+                              ],
+                              [
+                                "material",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "standard"
+                                }
+                              ],
+                              [
+                                "materialColor",
+                                {
+                                  "typeName" : "double4",
+                                  "value" : [
+                                    0.25,
+                                    0.15000000596046448,
+                                    0.05000000074505806,
+                                    1
+                                  ]
+                                }
+                              ],
+                              [
+                                "type",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "box"
+                                }
+                              ],
+                              [
+                                "width",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.44
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                              "version" : "1.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "20356841-7810-450F-84EB-80A6E96940EB"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1.6020518245341009e-13,
+                              0,
+                              0,
+                              -1.6020518245341009e-13,
+                              1,
+                              0,
+                              -0.0021663010120391846,
+                              0.042399458587169647,
+                              -0.4246140718460083,
+                              1
+                            ]
+                          }
+                        },
+                        "5821CC5B-8AD7-4575-B640-3B1132986FCF" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "bevelRadius",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.0050000000000000001
+                                }
+                              ],
+                              [
+                                "depth",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 2.032
+                                }
+                              ],
+                              [
+                                "height",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.0349
+                                }
+                              ],
+                              [
+                                "material",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "plastic"
+                                }
+                              ],
+                              [
+                                "materialColor",
+                                {
+                                  "typeName" : "double4",
+                                  "value" : [
+                                    0.40000000596046448,
+                                    0.23999999463558197,
+                                    0.079999998211860657,
+                                    1
+                                  ]
+                                }
+                              ],
+                              [
+                                "type",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "box"
+                                }
+                              ],
+                              [
+                                "width",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.81000000000000005
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                              "version" : "1.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "48615F9C-7A06-4E4E-8332-062524B6F5AA"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              5.0626169922907138e-14,
+                              0,
+                              0,
+                              -5.0626169922907138e-14,
+                              1,
+                              0,
+                              1.3038516044616699e-08,
+                              0.017449997365474701,
+                              -5.5879354476928711e-08,
+                              1
+                            ]
+                          }
+                        },
+                        "CF514DAF-5D9C-47C9-8B48-B7877AF4FC09" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "bevelRadius",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.0050000000000000001
+                                }
+                              ],
+                              [
+                                "depth",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.71799861428998646
+                                }
+                              ],
+                              [
+                                "height",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.014999999999999999
+                                }
+                              ],
+                              [
+                                "material",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "standard"
+                                }
+                              ],
+                              [
+                                "materialColor",
+                                {
+                                  "typeName" : "double4",
+                                  "value" : [
+                                    0.25,
+                                    0.15000000596046448,
+                                    0.05000000074505806,
+                                    1
+                                  ]
+                                }
+                              ],
+                              [
+                                "type",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "box"
+                                }
+                              ],
+                              [
+                                "width",
+                                {
+                                  "typeName" : "Double",
+                                  "value" : 0.44
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                              "version" : "1.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "C368D09B-728A-4263-9827-A569717DF42E"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1.3467005288703149e-13,
+                              0,
+                              0,
+                              -1.3467005288703149e-13,
+                              1,
+                              0,
+                              -0.0021663010120391846,
+                              0.02998892217874527,
+                              0.46924138069152832,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "F8B2971C-DD04-468A-A022-19D69EF1EEC0"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.0000017881393433,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1.0000017881393433,
+                        2.9198496241276614e-14,
+                        0,
+                        0,
+                        -2.9198496241276614e-14,
+                        1.0000017881393433,
+                        0,
+                        0,
+                        2.9246316333346803e-14,
+                        -4.9067170948546845e-07,
+                        1
+                      ]
+                    }
+                  },
+                  "CF514DAF-5D9C-47C9-8B48-B7877AF4FC09" : null,
+                  "D8F5FE22-8583-455C-95E0-8A5A3A256F2F" : null,
+                  "Shelf" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "DoorModel",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.97848767042160034,
+                  -1.0081606660605757e-08,
+                  -0.20630559325218201,
+                  0,
+                  -0.093464799225330353,
+                  0.89148980379104614,
+                  -0.44329473376274109,
+                  0,
+                  0.18391889333724976,
+                  0.45304065942764282,
+                  0.87231183052062988,
+                  0,
+                  0.20844745635986328,
+                  1.1642255783081055,
+                  3.8900892734527588,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

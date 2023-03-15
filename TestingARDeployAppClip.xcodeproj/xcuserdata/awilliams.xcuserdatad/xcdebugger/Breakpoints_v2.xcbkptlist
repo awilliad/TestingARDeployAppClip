@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8F3956B0-6619-42C2-874C-27EB6491492B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3ACF5478-56CF-4862-9229-E47CA234DF25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingARDeployAppClip/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "handleTap(touch:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3ACF5478-56CF-4862-9229-E47CA234DF25 - c3d713d5f6944f78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestingARDeployAppClip.Coordinator.handleTap(touch: __C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "TestingARDeployAppClip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/awilliams/Documents/OST-POC/TestingARDeployAppClip/TestingARDeployAppClip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "3ACF5478-56CF-4862-9229-E47CA234DF25 - c3d713d5f6944f78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestingARDeployAppClip.Coordinator.handleTap(touch: __C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "TestingARDeployAppClip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/awilliams/Documents/OST-POC/TestingARDeployAppClip/TestingARDeployAppClip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "492">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C843B165-9104-441E-93F1-28C9A97A5904"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingARDeployAppClip/ColorPickerScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "init(scannedCode:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F06188F3-51A6-4E0F-B123-1A1BC6440540"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingARDeployAppClip/ColorPickerScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

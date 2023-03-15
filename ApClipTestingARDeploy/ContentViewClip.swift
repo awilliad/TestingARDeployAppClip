@@ -9,39 +9,25 @@ import SwiftUI
 import RealityKit
 import ARKit
 
-struct ContentView : View {
-    @Binding var frameColor: Color
+struct ContentViewClip : View {
     var body: some View {
-        ARViewContainer(theFrameColor: self.$frameColor).edgesIgnoringSafeArea(.all)
+        ARViewContainerClip().edgesIgnoringSafeArea(.all)
     }
 }
 
-struct ARViewContainer: UIViewRepresentable {
-    @Binding var theFrameColor: Color 
-    func hasObjReference()-> Bool {
-        if false {
-            return true
-        }
-        else{
-            return false
-        }
-    }
+struct ARViewContainerClip: UIViewRepresentable {
+    
     func makeUIView(context: Context) -> ARView {
+        
         //Set up for session to begin
         let arView = ARView(frame: .zero)
         let placeConfiguration = ARWorldTrackingConfiguration()
         let session = arView.session
         
-        let tempConfig = ARObjectScanningConfiguration()
         // Add the Confiugration for the world's plane detection
         placeConfiguration.planeDetection = [.vertical]
-        placeConfiguration.environmentTexturing = .automatic
-        placeConfiguration.sceneReconstruction = .mesh
         
         session.run(placeConfiguration)
-        
-        //create the object reference
-//        createReferenceObject
         
         // Add Coaching Overlay
         let coachingOverlay = ARCoachingOverlayView()
@@ -59,20 +45,19 @@ struct ARViewContainer: UIViewRepresentable {
         arView.addGestureRecognizer(
             UITapGestureRecognizer(
                 target: context.coordinator,
-                action: #selector(Coordinator.handleTap)
+                action: #selector(CoordinatorClip.handleTap)
             )
         )
         
         //handle sesison events via delegate
         context.coordinator.view = arView
-        context.coordinator.myFrameColor = theFrameColor
 
         return arView
         
     }
     
-    func makeCoordinator() -> Coordinator {
-        Coordinator()
+    func makeCoordinator() -> CoordinatorClip {
+        CoordinatorClip()
     }
     
     
@@ -82,13 +67,12 @@ struct ARViewContainer: UIViewRepresentable {
 
 
 
-class Coordinator: NSObject, ARSessionDelegate {
+class CoordinatorClip: NSObject, ARSessionDelegate {
     weak var view: ARView?
     var modelEntity: ModelEntity?
-    var myFrameColor: Color = Color.blue
     
     func session( session: ARSession, didAnchor anchors: [ARAnchor]) {
-        guard self.view != nil else {return}
+        guard let view = self.view else {return}
         debugPrint("Anchors have been added to scene: ", anchors)
     }
     
@@ -101,14 +85,9 @@ class Coordinator: NSObject, ARSessionDelegate {
         //config door model
         let doorEntity = try! DoorModel.load_DoorModel()
         doorEntity.scale = [1,1,1]
-        var material = SimpleMaterial()
-        
-        material.color = .init(tint: UIColor(myFrameColor))
         
         if let result = results.first {
             let anchorEntity = AnchorEntity(world: result.worldTransform)
-            
-            
             anchorEntity.addChild(doorEntity)
             view.scene.addAnchor(anchorEntity)
         }
@@ -117,9 +96,9 @@ class Coordinator: NSObject, ARSessionDelegate {
 }
 
 #if DEBUG
-//struct ContentView_Previews : PreviewProvider {
-//    static var previews: some View {
-//        ContentView(frameColor: UIColor(Color.blue))
-//    }
-//}
+struct ContentsView_Previews : PreviewProvider {
+    static var previews: some View {
+        ContentViewClip()
+    }
+}
 #endif

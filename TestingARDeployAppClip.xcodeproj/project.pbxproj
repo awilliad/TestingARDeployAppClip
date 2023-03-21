@@ -28,6 +28,7 @@
 		B5AC600029673CFC00B6E518 /* ApClipTestingARDeploy.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = B5AC5FD629673CFB00B6E518 /* ApClipTestingARDeploy.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B5AC601229673E0D00B6E518 /* DoorModel.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B5AC601029673E0300B6E518 /* DoorModel.rcproject */; };
 		B5B967242970AE7B0027BDD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5600C6E296484DB009B8AD7 /* ContentView.swift */; };
+		B5F72C0929C9FB7500444191 /* SceneTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F72C0829C9FB7500444191 /* SceneTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		B5C60DD12971B028002802D1 /* TestingARDeployAppClipRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestingARDeployAppClipRelease.entitlements; sourceTree = "<group>"; };
 		B5C60DD22971B04F002802D1 /* ApClipTestingARDeployRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApClipTestingARDeployRelease.entitlements; sourceTree = "<group>"; };
 		B5C60DD32971D785002802D1 /* TestingARDeployAppClipDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestingARDeployAppClipDebug.entitlements; sourceTree = "<group>"; };
+		B5F72C0829C9FB7500444191 /* SceneTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 				B5600C72296484DC009B8AD7 /* Assets.xcassets */,
 				B5600C9829648535009B8AD7 /* Models */,
 				B5600C74296484DC009B8AD7 /* Preview Content */,
+				B5F72C0829C9FB7500444191 /* SceneTestView.swift */,
 			);
 			path = TestingARDeployAppClip;
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5600C6F296484DB009B8AD7 /* ContentView.swift in Sources */,
+				B5F72C0929C9FB7500444191 /* SceneTestView.swift in Sources */,
 				B5A3FFCC29BF5DCB003C3736 /* DoorModel.rcproject in Sources */,
 				B5600C6D296484DB009B8AD7 /* AppDelegate.swift in Sources */,
 				B5A3FFD029BF5E86003C3736 /* ColorPickerScreen.swift in Sources */,

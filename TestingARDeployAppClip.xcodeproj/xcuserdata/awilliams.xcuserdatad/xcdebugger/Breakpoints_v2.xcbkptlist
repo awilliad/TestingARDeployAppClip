@@ -14,10 +14,8 @@
             filePath = "TestingARDeployAppClip/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "handleTap(touch:)"
-            landmarkType = "7">
+            startingLineNumber = "128"
+            endingLineNumber = "128">
             <Locations>
                <Location
                   uuid = "3ACF5478-56CF-4862-9229-E47CA234DF25 - c3d713d5f6944f78"
@@ -71,17 +69,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F06188F3-51A6-4E0F-B123-1A1BC6440540"
+            uuid = "E15CA157-B505-4E7E-B2CB-E687A255D8F0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestingARDeployAppClip/ColorPickerScreen.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "225"
-            endingLineNumber = "225"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "977997D5-1CCC-431F-93E1-1BBD12A9CE79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestingARDeployAppClip/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "Coordinator"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

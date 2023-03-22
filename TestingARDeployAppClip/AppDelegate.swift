@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            return true
 //        }
         // Create the SwiftUI view that provides the window contents.
-        let contentView = DropdownMenuView()
+        let contentView = SceneTestView()
     
         //let contentView = ContentView(frameColor: <#Binding<Color>#>)
         
